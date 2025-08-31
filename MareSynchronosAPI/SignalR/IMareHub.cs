@@ -1,11 +1,11 @@
-﻿using MareSynchronos.API.Data;
-using MareSynchronos.API.Data.Enum;
-using MareSynchronos.API.Dto;
-using MareSynchronos.API.Dto.CharaData;
-using MareSynchronos.API.Dto.Group;
-using MareSynchronos.API.Dto.User;
+﻿using UnsungSync.API.Data;
+using UnsungSync.API.Data.Enum;
+using UnsungSync.API.Dto;
+using UnsungSync.API.Dto.CharaData;
+using UnsungSync.API.Dto.Group;
+using UnsungSync.API.Dto.User;
 
-namespace MareSynchronos.API.SignalR;
+namespace UnsungSync.API.SignalR;
 
 public interface IMareHub
 {

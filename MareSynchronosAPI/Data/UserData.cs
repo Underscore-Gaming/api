@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace MareSynchronos.API.Data;
+namespace UnsungSync.API.Data;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record UserData(string UID, string? Alias = null)

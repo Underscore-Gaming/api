@@ -1,4 +1,4 @@
-﻿namespace MareSynchronos.API.Data;
+﻿namespace UnsungSync.API.Data;
 
 public class Constants
 {

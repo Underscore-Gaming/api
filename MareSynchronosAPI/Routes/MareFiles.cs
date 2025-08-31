@@ -1,4 +1,4 @@
-﻿namespace MareSynchronos.API.Routes;
+﻿namespace UnsungSync.API.Routes;
 
 public class MareFiles
 {

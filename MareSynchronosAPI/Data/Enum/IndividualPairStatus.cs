@@ -1,4 +1,4 @@
-﻿namespace MareSynchronos.API.Data.Enum;
+﻿namespace UnsungSync.API.Data.Enum;
 
 public enum IndividualPairStatus
 {

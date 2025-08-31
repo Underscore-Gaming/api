@@ -1,7 +1,7 @@
-﻿using MareSynchronos.API.Data;
+﻿using UnsungSync.API.Data;
 using MessagePack;
 
-namespace MareSynchronos.API.Dto;
+namespace UnsungSync.API.Dto;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record ConnectionDto(UserData User)

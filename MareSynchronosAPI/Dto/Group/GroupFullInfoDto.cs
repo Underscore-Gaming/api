@@ -1,8 +1,8 @@
-﻿using MareSynchronos.API.Data;
-using MareSynchronos.API.Data.Enum;
+﻿using UnsungSync.API.Data;
+using UnsungSync.API.Data.Enum;
 using MessagePack;
 
-namespace MareSynchronos.API.Dto.Group;
+namespace UnsungSync.API.Dto.Group;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record GroupFullInfoDto(GroupData Group, UserData Owner, GroupPermissions GroupPermissions,

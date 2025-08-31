@@ -1,4 +1,4 @@
-﻿using MareSynchronos.API.Data.Enum;
+﻿using UnsungSync.API.Data.Enum;
 using MessagePack;
 using System.Security.Cryptography;
 
@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace MareSynchronos.API.Data;
+namespace UnsungSync.API.Data;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public class CharacterData

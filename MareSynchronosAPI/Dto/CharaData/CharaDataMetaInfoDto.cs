@@ -1,7 +1,7 @@
-﻿using MareSynchronos.API.Data;
+﻿using UnsungSync.API.Data;
 using MessagePack;
 
-namespace MareSynchronos.API.Dto.CharaData;
+namespace UnsungSync.API.Dto.CharaData;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record CharaDataMetaInfoDto(string Id, UserData Uploader) : CharaDataDto(Id, Uploader)
